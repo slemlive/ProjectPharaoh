@@ -1,0 +1,218 @@
+
+<Sprite>
+Name:	Loading
+Speed:	0.25
+Loop:	true
+{
+Image/Loading/Loading (0).jpg
+Image/Loading/Loading (1).jpg
+Image/Loading/Loading (2).jpg
+Image/Loading/Loading (3).jpg
+}
+<End>
+
+<Sprite>
+Name:	MainBackGround
+Speed:	0.0
+Loop:	false
+{
+Image/Main/MainBackGround.jpg
+}
+<End>
+
+<Sprite>
+Name:	Write
+Speed:	1.0
+Loop:	false
+{
+Image/Write.jpg
+}
+<End>
+
+<Sprite>
+Name:	MainLine
+Speed:	0.0
+Loop:	false
+{
+Image/Main/MainLine.png
+}
+<End>
+
+<Sprite>
+Name:	PlayButton
+Speed:	0.1
+Loop:	true
+{
+Image/Main/PlayButton/Ani/PlayAni (0).png
+Image/Main/PlayButton/Ani/PlayAni (1).png
+Image/Main/PlayButton/Ani/PlayAni (2).png
+Image/Main/PlayButton/Ani/PlayAni (3).png
+Image/Main/PlayButton/Ani/PlayAni (4).png
+Image/Main/PlayButton/Ani/PlayAni (5).png
+}
+<End>
+
+<Sprite>
+Name:	ExplayinButton
+Speed:	0.1
+Loop:	true
+{
+Image/Main/ExplayinButton/Ani/ExplayinAni (0).png
+Image/Main/ExplayinButton/Ani/ExplayinAni (1).png
+Image/Main/ExplayinButton/Ani/ExplayinAni (2).png
+Image/Main/ExplayinButton/Ani/ExplayinAni (3).png
+Image/Main/ExplayinButton/Ani/ExplayinAni (4).png
+}
+<End>
+
+<Sprite>
+Name:	IntroduceButton
+Speed:	0.1
+Loop:	true
+{
+Image/Main/IntroduceButton/Ani/IntroduceAni (0).png
+Image/Main/IntroduceButton/Ani/IntroduceAni (1).png
+Image/Main/IntroduceButton/Ani/IntroduceAni (2).png
+Image/Main/IntroduceButton/Ani/IntroduceAni (3).png
+Image/Main/IntroduceButton/Ani/IntroduceAni (4).png
+}
+<End>
+
+<Sprite>
+Name:	RankingButton
+Speed:	0.1
+Loop:	true
+{
+Image/Main/RankingButton/Ani/RankingAni (0).png
+Image/Main/RankingButton/Ani/RankingAni (1).png
+Image/Main/RankingButton/Ani/RankingAni (2).png
+Image/Main/RankingButton/Ani/RankingAni (3).png
+Image/Main/RankingButton/Ani/RankingAni (4).png
+}
+<End>
+
+<Sprite>
+Name:	PlayerUI
+Speed:	0.1
+Loop:	false
+{
+Image/UI/PlayerUI.png
+}
+<End>
+
+<Sprite>
+Name:	MiniMap
+Speed:	0.1
+Loop:	false
+{
+Image/UI/MiniMap.png
+}
+<End>
+
+<Sprite>
+Name:	HpBar
+Speed:	0.1
+Loop:	false
+{
+Image/UI/HpBar.png
+}
+<End>
+
+<Sprite>
+Name:	HpBack
+Speed:	0.1
+Loop:	false
+{
+Image/UI/HpBack.png
+}
+<End>
+
+<Sprite>
+Name:	BackButton
+Speed:	0.1
+Loop:	false
+{
+Image/BackButton.png
+}
+<End>
+
+<Sprite>
+Name:	Explayin
+Speed:	0.1
+Loop:	false
+{
+Image/Explayin.jpg
+}
+<End>
+
+<Sprite>
+Name:	Introduce
+Speed:	0.1
+Loop:	false
+{
+Image/Introduce.jpg
+}
+<End>
+
+<Sprite>
+Name:	Ranking
+Speed:	0.1
+Loop:	false
+{
+Image/Ranking.jpg
+}
+<End>
+
+<Sprite>
+Name:	RopeBar
+Speed:	0.1
+Loop:	false
+{
+Image/RopeBar.png
+}
+<End>
+
+<Sprite>
+Name:	TrapBar
+Speed:	0.1
+Loop:	false
+{
+Image/TrapBar.png
+}
+<End>
+
+<Sprite>
+Name:	ItemBack
+Speed:	0.1
+Loop:	false
+{
+Image/ItemBack.png
+}
+<End>
+
+<Sprite>
+Name:	2StageMiniMap
+Speed:	0.1
+Loop:	false
+{
+Image/2StageMiniMap.png
+}
+<End>
+
+<Sprite>
+Name:	ScoreBack
+Speed:	0.1
+Loop:	false
+{
+Image/ScoreBack.png
+}
+<End>
+
+<Sprite>
+Name:	MiniPlayer
+Speed:	0.1
+Loop:	false
+{
+Image/UI/MiniPlayer.png
+}
+<End>

@@ -1,0 +1,294 @@
+
+<Mesh>
+Name: 1StageGround
+Loop: false
+File: ASE/1StageGround.ase
+<End>
+
+<Mesh>
+Name: 1StageWall
+Loop: false
+File: ASE/1StageWall.ase
+<End>
+
+<Mesh>
+Name: 2StageGround
+Loop: false
+File: ASE/2StageGround.ase
+<End>
+
+<Mesh>
+Name: 2StageWall
+Loop: false
+File: ASE/2StageWall.ase
+<End>
+
+<Mesh>
+Name: Torch
+Loop: false
+File: ASE/Torch.ase
+<End>
+
+<Mesh>
+Name: PlayerNormal
+Loop: true
+File: ASE/PlayerNormal.ase
+<End>
+
+<Mesh>
+Name: PlayerMove
+Loop: true
+File: ASE/PlayerMove.ase
+<End>
+
+<Mesh>
+Name: PlayerAttack
+Loop: false
+File: ASE/PlayerAttack.ase
+<End>
+
+<Mesh>
+Name: PlayerBow
+Loop: false
+File: ASE/PlayerBow.ase
+<End>
+
+<Mesh>
+Name: PlayerDie
+Loop: false
+File: ASE/PlayerDie.ase
+<End>
+
+<Mesh>
+Name: CatNormal
+Loop: true
+File: ASE/CatNormal.ase
+<End>
+
+<Mesh>
+Name: CatMove
+Loop: true
+File: ASE/CatMove.ase
+<End>
+
+<Mesh>
+Name: MummyNormal
+Loop: true
+File: ASE/MummyNormal.ase
+<End>
+
+<Mesh>
+Name: MummyMove
+Loop: true
+File: ASE/MummyMove.ase
+<End>
+
+<Mesh>
+Name: SnakeNormal
+Loop: true
+File: ASE/SnakeNormal.ase
+<End>
+
+<Mesh>
+Name: SnakeMove
+Loop: true
+File: ASE/SnakeMove.ase
+<End>
+
+<Mesh>
+Name: ScorpionNormal
+Loop: true
+File: ASE/ScorpionNormal.ase
+<End>
+
+<Mesh>
+Name: ScorpionMove
+Loop: true
+File: ASE/ScorpionMove.ase
+<End>
+
+<Mesh>
+Name: ScorpionDie
+Loop: false
+File: ASE/ScorpionDie.ase
+<End>
+
+<Mesh>
+Name: ScorpionAttack
+Loop: false
+File: ASE/ScorpionAttack.ase
+<End>
+
+<Mesh>
+Name: SnakeDie
+Loop: false
+File: ASE/SnakeDie.ase
+<End>
+
+<Mesh>
+Name: SnakeAttack
+Loop: false
+File: ASE/SnakeAttack.ase
+<End>
+
+<Mesh>
+Name: CatDie
+Loop: false
+File: ASE/CatDie.ase
+<End>
+
+<Mesh>
+Name: CatAttack
+Loop: false
+File: ASE/CatAttack.ase
+<End>
+
+<Mesh>
+Name: MummyDie
+Loop: false
+File: ASE/MummyDie.ase
+<End>
+
+<Mesh>
+Name: MummyAttack
+Loop: false
+File: ASE/MummyAttack.ase
+<End>
+
+<Mesh>
+Name: BossNormal
+Loop: true
+File: ASE/BossNormal.ase
+<End>
+
+<Mesh>
+Name: BossMove
+Loop: true
+File: ASE/BossMove.ase
+<End>
+
+<Mesh>
+Name: BossAttack
+Loop: false
+File: ASE/BossAttack.ase
+<End>
+
+<Mesh>
+Name: BossDie
+Loop: false
+File: ASE/BossDie.ase
+<End>
+
+<Mesh>
+Name: BossSkill
+Loop: false
+File: ASE/BossSkill.ase
+<End>
+
+<Mesh>
+Name: BossSpear
+Loop: false
+File: ASE/BossSpear.ase
+<End>
+
+<Mesh>
+Name: SCNormal
+Loop: true
+File: ASE/SCNormal.ase
+<End>
+
+<Mesh>
+Name: SCMove
+Loop: true
+File: ASE/SCMove.ase
+<End>
+
+<Mesh>
+Name: SCAttack
+Loop: false
+File: ASE/SCAttack.ase
+<End>
+
+<Mesh>
+Name: SCDie
+Loop: false
+File: ASE/SCDie.ase
+<End>
+
+<Mesh>
+Name: Portal1
+Loop: false
+File: ASE/Portal1.ase
+<End>
+
+<Mesh>
+Name: Portal2
+Loop: false
+File: ASE/Portal2.ase
+<End>
+
+<Mesh>
+Name: BowItem
+Loop: true
+File: ASE/BowItem.ase
+<End>
+
+<Mesh>
+Name: HpItem
+Loop: true
+File: ASE/HpItem.ase
+<End>
+
+<Mesh>
+Name: RopeItem
+Loop: false
+File: ASE/RopeItem.ase
+<End>
+
+<Mesh>
+Name: ShieldItem
+Loop: false
+File: ASE/ShieldItem.ase
+<End>
+
+<Mesh>
+Name: TrapItem
+Loop: false
+File: ASE/TrapItem.ase
+<End>
+
+<Mesh>
+Name: SpeedItem
+Loop: false
+File: ASE/SpeedItem.ase
+<End>
+
+<Mesh>
+Name: Arrow
+Loop: false
+File: ASE/Arrow.ase
+<End>
+
+<Mesh>
+Name: HitEffect
+Loop: false
+File: ASE/HitEffect.ase
+<End>
+
+<Mesh>
+Name: MiniHp
+Loop: false
+File: ASE/MiniHp.ase
+<End>
+
+<Mesh>
+Name: 1StageDeco
+Loop: false
+File: ASE/1StageDeco.ase
+<End>
+
+<Mesh>
+Name: 2StageDeco
+Loop: false
+File: ASE/2StageDeco.ase
+<End>

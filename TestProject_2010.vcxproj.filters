@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5bf3722e-c709-4436-bbae-81602f7c2895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{47a71a4e-1d3f-4bff-bc98-56ee4571931d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgr">
+      <UniqueIdentifier>{ea384d7c-40b5-449b-8b1e-6fff937a2fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{a4d8bdfb-8001-4ede-9a6d-575e5e26084b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{0683d9e3-0d74-46cc-bcbe-354ed65914fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{38667a89-117d-41ed-9e9a-61154df453fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestProject.cpp" />
+    <ClCompile Include="frstream.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Ase.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjPool.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="ProcessMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjContainer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStageMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FontUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUIContainer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummy.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scorpion.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Introduce.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Explayin.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="RankMgr.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreStage.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="SC.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Torch.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfind.cpp">
+      <Filter>Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="New.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NameSpace.h" />
+    <ClInclude Include="frstream.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Ase.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjPool.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="ProcessMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjContainer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStageMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FontUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUIContainer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummy.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scorpion.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Introduce.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Explayin.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="RankMgr.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreStage.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="SC.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Torch.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfind.h">
+      <Filter>Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="New.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="TestProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\SpriteData.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Data\MeshData.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Data\Ranking.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
